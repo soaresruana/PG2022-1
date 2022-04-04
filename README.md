@@ -12,7 +12,8 @@ Abaixo irei descrever a atividade contida em cada pasta sequencial.
 * Arquivo txt com o código da estrutura. 
 
 - Pasta (Lista-1) Contém:
-* Exercícios d0 1 ao 9. 
+* Exercícios do 5 ao 9. 
 * print e arquivo txt com código da estrutura. 
+Observações: Tentei, mas até o momento não consegui gerar a estrela e o aspiral. 
 
 
