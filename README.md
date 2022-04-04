@@ -7,7 +7,12 @@ dentro desta pasta será adicionado uma nova pasta com o número sequencial da ati
 
 Abaixo irei descrever a atividade contida em cada pasta sequencial. 
 
-- Atividade-1: Contém o print da execução do HelloTriangle - com o título da janela para HelloTriangle - Ruana Soares
+- Pasta (Atividade-1) Contém: 
+* O print da execução do HelloTriangle - com o título da janela para HelloTriangle - Ruana Soares
+* Arquivo txt com o código da estrutura. 
 
+- Pasta (Lista-1) Contém:
+* Exercícios d0 1 ao 9. 
+* print e arquivo txt com código da estrutura. 
 
 
