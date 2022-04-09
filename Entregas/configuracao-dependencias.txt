@@ -1,0 +1,10 @@
+Configuração de dependencias nas propriedades.
+
+C/C++ Geral
+../../dependencies/glfw-3.3.4.bin.WIN32/include;../../dependencies/GLAD/include
+
+Vinculador Geral
+../../dependencies/glfw-3.3.4.bin.WIN32/lib-vc2019
+
+Vinculador Entrada
+glfw3.lib;opengl32.lib;%(AdditionalDependencies)
