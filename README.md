@@ -15,7 +15,16 @@ Abaixo irei descrever a atividade contida em cada pasta sequencial.
 * Exercícios do 5 ao 9. 
 * print e arquivo txt com código da estrutura. 
 
-Observações: Tentei, mas até o momento não consegui gerar a estrela e o aspiral. 
+Diretórios dentro de HelloTriangle-withShaderClass:
+- Exercicio5
+- Exercicio6
+- Exercicio7 Tentei, mas não consegui gerar o espiral
+- Exercicio8 
+- Exercicio9
+
+
+
+
 
 
 
