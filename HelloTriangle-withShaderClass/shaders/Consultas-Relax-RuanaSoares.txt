@@ -1,0 +1,45 @@
+// S7 | Álgebra Relacional - Atividade Avaliativa.
+// Ruana Boeira Soares.
+
+1. Agora, como saber se todos os departamentos tem seus cursos com matrículas? Atenção, não vale olhar que departamentos são ou quantos são para resolver o problema.
+
+π dept_name (department) - π dept_name (course ⨝ section ⨝ takes)
+
+
+2. Quais cursos têm aulas em prédios fora do prédio do seu departamento?
+
+σ department.building = section.building (
+π department.building, section.building, department.dept_name, course.course_id (
+σ department.dept_name = course.dept_name ∧ course.course_id = section.course_id (department ⨯ course ⨯ section)))
+
+
+
+3. Quais professores já ministraram a disciplina (course) 'Intro. to Computer Science'. Crie duas soluções, uma com JUNÇÃO NATURAL e outra com PRODUTO CARTESIANO. Compare as duas versões, explicando as diferenças que observa na árvore de consulta demonstrada pelo RelaX.
+
+ 	Junção Natural:
+Aqui criamos uma relação com as tuplas que têm os mesmos valores nos
+atributos de ligação entre as três relações.
+
+σ course.title = 'Intro. to Computer Science' (course ⨝ instructor ⨝ teaches)
+
+	Produto Cartesiano:
+Aqui multiplicamos três relações para definir uma nova que consiste de todas as
+combinações das tuplas das duas relações.
+
+σ course.title = 'Intro. to Computer Science' (course ⨯ instructor ⨯ teaches)
+
+
+4. Liste o nome de todos os professores e, para aqueles que são advisors, o nome dos seus estudantes orientandos.
+
+π instructor.name, advisor.s_id, student.name (
+
+σ instructor.ID = advisor.i_id ∧ student.ID = advisor.s_id
+(instructor ⨯ student ⨯ advisor)
+) 
+
+
+5. Liste todas as disciplinas e alunos da Universidade, mesmo aquelas disciplinas que não estão com oferta, assim como os alunos que não estão matriculados. 
+
+π course.title, student.name (
+(course ⨯ student )
+)
