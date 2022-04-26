@@ -23,9 +23,14 @@ Diretórios dentro de HelloTriangle-withShaderClass:
 - Exercicio9
 
 - Pasta (Lista-2) Contém:
-- Exercicio da lista 2, print com o desenho dos 4 quadrantes.
+* Exercicio da lista 2.
+* print e arquivo txt com código da estrutura. 
 
 - Pasta (Lista-3) Contém:
+* print e arquivo txt com código da estrutura. 
+Aqui a ideia era renderizar os 4 circulos e movimenta-los.
+Ficou os movimentos W,A,S,D porém não ficou no formato de circulo, só a linha azul do centro do eixo.
+
 
 - Pasta (Trabalho-GA) Contém:
   Até o momento não foi possível atender todos os requisitos do trabalho.
