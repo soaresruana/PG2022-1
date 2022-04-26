@@ -134,6 +134,8 @@ int main()
 		GLint modelLoc = glGetUniformLocation(shader.ID, "model");
 		glUniformMatrix4fv(modelLoc, 1, FALSE, glm::value_ptr(model));
 
+			
+
 
 		//ESQUERDA SUPERIOR
 		glViewport(0, height / 2, width / 2, height / 2);

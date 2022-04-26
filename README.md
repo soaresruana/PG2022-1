@@ -22,6 +22,18 @@ Diretórios dentro de HelloTriangle-withShaderClass:
 - Exercicio8 
 - Exercicio9
 
+- Pasta (Lista-2) Contém:
+- Exercicio da lista 2, print com o desenho dos 4 quadrantes.
+
+- Pasta (Lista-3) Contém:
+
+- Pasta (Trabalho-GA) Contém:
+  Até o momento não foi possível atender todos os requisitos do trabalho.
+- Renderização de 5 imagens na tela.
+- Teclas W,A,S,D mudam a textura e as movimentam. (cima, esquerda, baixo, direita)
+
+
+
 
 
 
